@@ -5,12 +5,12 @@
     },
 
     "invalidEmail": {
-        "email": "abc",
-        "password": "Password123"
+        "email": "abc@gmail.com",
+        "password": "Samiha@2005"
     },
 
     "wrongPassword": {
-        "email": "validuser@gmail.com",
+        "email": "samihasami205@gmail.com",
         "password": "Wrong123"
     }
 }
