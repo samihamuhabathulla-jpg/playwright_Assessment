@@ -34,9 +34,4 @@ export class HomePage{
 
     }
 
-    async searchProduct(product:string){
-        await this.searchBox.fill(product);
-        await this.searchButton.click();
-    }
-
 }

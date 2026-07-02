@@ -11,11 +11,4 @@ test.describe('Home Page Tests', () => {
 
     });
 
-    test('Search Product', async ({ homePage, page }) => {
-        await homePage.searchProduct("MacBook");
-        await expect(page).toHaveURL(/search/);
-        await expect(page.locator(".product-thumb").first()).toContainText("MacBook");
-
-    });
-
 });

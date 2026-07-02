@@ -30,9 +30,7 @@ export class RegisterPage {
     }
 
     async register(firstName: string, lastName: string, telephone: string, password: string) {
-
-        let randomNumber = Math.floor(Math.random() * 10000);
-        let email = "sami" + randomNumber + "@gmail.com";
+        const email = `sami${Date.now()}@gmail.com`;
         await this.firstName.fill(firstName);
         await this.lastName.fill(lastName);
         await this.email.fill(email);
